@@ -1,5 +1,5 @@
 from langfuse import Langfuse, get_client
-from langfuse.langchain import CallbackHandler
+
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -14,4 +14,3 @@ Langfuse(
 
 langfuse = get_client()
 
-handler = CallbackHandler()

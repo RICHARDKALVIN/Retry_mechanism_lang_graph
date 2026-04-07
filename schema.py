@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import TypedDict,Any
 
 class State(TypedDict):
     query : str
@@ -7,3 +7,4 @@ class State(TypedDict):
     url :str
     metadata : dict
     answer : str 
+    trace : Any
